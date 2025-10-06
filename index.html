@@ -2,8 +2,19 @@
 <html>
     <head>
          <link rel="stylesheet" href="style.css">
+         <script>
+            function greet()
+            {
+                alert("hello" + document.querySelector("#name").value)
+            }
+         </script>
     </head>
     <body>
+        <form onsubmit="greet(); return false;">
+            <input type="text" placeholder="Name" id="name">
+            <input type="submit">
+        </form>
+        
         <img src="gerbtspu118.png">
         <h1>ТГПУ</h1>
         <h2>ИИЯМС</h2>
@@ -23,7 +34,7 @@
 <doctoe html>
 <html>
     <head>
-    
+
     </head>
     <body>
 
