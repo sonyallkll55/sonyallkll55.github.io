@@ -14,6 +14,5 @@
             <input type="text" placeholder="Name" id="name">
             <input type="submit">
         </form>
-
     </body>
-    <html>
+<html>
