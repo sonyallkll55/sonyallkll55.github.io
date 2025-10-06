@@ -12,4 +12,8 @@
     <body>
         <form onsubmit="greet(); return false;">
             <input type="text" placeholder="Name" id="name">
-            <inpt>
+            <input type="submit">
+        </form>
+
+    </body>
+    <html>
